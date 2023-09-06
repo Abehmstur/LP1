@@ -32,6 +32,7 @@ BIBLIOTECA <QUEUE>
 #include <stack>
 #include <queue>
 #include <list>
+#include <vector>
 
 using namespace std;
 
@@ -99,4 +100,16 @@ int main(int argc, char const *argv[])
 
 // exemplo vector é o mais PICA DE TODOS
 //OLHAR O SLIDE
+
+int main(int argc, char const *argv[])
+{
+    vector <int> vetor;
+
+    vetor.push_back(1);
+    vetor.push_back(2);
+    vetor.push_back(3);
+
+    cout << vetor[0] << endl;
+    return 0;
+}
 
