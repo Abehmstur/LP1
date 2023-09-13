@@ -98,9 +98,11 @@ int main(int argc, char const *argv[])
     return 0;
 } */
 
-// exemplo vector é o mais PICA DE TODOS
-//OLHAR O SLIDE
+/* 
+ exemplo vector é o mais PICA DE TODOS
+ OLHAR O SLIDE
 
+*/
 int main(int argc, char const *argv[])
 {
     vector <int> vetor;
