@@ -62,5 +62,20 @@ Class Carro : public Veiculo {
         void desligar();
         void acerelar();
 }
-
+diferenca entre criar com new e criar sem New
+Carro palio; ele fica vivo enquanto o método que ele foi criado existir, dps que ela parar de funcionar ele desaparece.
+Carro
 */
+#include <iostream>
+#include "veiculo.hpp"
+#include "carro.hpp"
+
+using namespace std;
+
+int main()
+{
+    Carro *palio = new Carro();   
+
+    palio->ligarVeiculo();
+    return 0;
+}
