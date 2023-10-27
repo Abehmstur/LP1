@@ -74,8 +74,8 @@ using namespace std;
 
 int main()
 {
-    Carro *palio = new Carro();   
-
-    palio->ligarVeiculo();
+    //Carro *palio = new Carro();   
+    Carro palio;
+       cout << "Teste";
     return 0;
 }
