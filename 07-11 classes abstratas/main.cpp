@@ -26,6 +26,7 @@ class Animal{
     }*/
 
     //comer virou virtual
+    
     virtual void comer() = 0;
     virtual void andar() = 0;
     virtual void correr() = 0;
